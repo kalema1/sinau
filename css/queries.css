@@ -1,0 +1,221 @@
+/**********************************************/
+/* ABOVE 600px*/
+/**********************************************/
+@media (min-width: 37em) {
+    .student-endroll-box {
+        left: 3%;
+        bottom: 2%;
+    }
+    .circle {
+        left: 14%
+    }
+    .tag-box {
+        right: 9%;
+    }
+    .crown-icon {
+        left: 24%;
+    }
+    .heading-primary {
+        font-size: 4.2rem;
+    }
+    .heading-para {
+        font-size: 2rem;
+    }
+    .heading-secondary {
+        font-size: 3.2rem;
+    }
+    .section-para {
+        font-size: 2rem;
+    }
+    .section-why-r-heading {
+        font-size: 2.4rem;
+    }
+    .section-why-r {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .heading-tertiary {
+        font-size: 2.4rem;
+    }
+    .sec-help-tag-box {
+        right: 19%;
+    }
+    .sec-help-courses {
+        left: 7%;
+    }
+    .sec-help-circle-bg {
+        left: 9%;
+    }
+    .sec-help-circle-sm1 {
+        left: 27%;
+    }
+    .sec-help-circle-sm2 {
+        right: 17.5%;
+    }
+
+
+    .grid-footer {
+        grid-template-columns: 1.5fr 1fr;
+    }
+    .footer-box4 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .footer-box3 {
+        grid-column: 2;
+    }
+
+}
+
+
+/**********************************************/
+/* ABOVE 800px*/
+/**********************************************/
+
+@media (min-width: 50em){
+    
+    .heading-primary {
+        font-size: 5.2rem;
+    }
+    .student-endroll-box {
+        width: 20rem;
+        height: 20rem;
+        padding: 1.4rem;
+    }
+    .hero-graph-box {
+        gap: 2rem;
+    }
+    .graph-bar {
+        gap: 0.5rem;
+    }
+    .student-graph-para {
+        font-size: 1.8rem;
+        margin-bottom: 1.8rem;
+    }
+    .endroll-para {
+        font-size: 1.8rem;
+        margin-top: 1.8rem;
+    }
+    .bar1 {
+        height: 5rem;
+    }
+    .bar2 {
+        height: 6rem;
+    }
+    .bar3 {
+        height: 7rem;
+    }
+    .bar4 {
+        height: 8rem;
+    }
+    .bar5 {
+        height: 4rem;
+    }
+    .bar6 {
+    height: 5rem;
+    }
+    .bar7 {
+        height: 5rem;
+}
+    .bar8 {
+        height: 6rem;
+    }
+    .bar9 {
+        height: 6rem;
+    }
+    .bar10 {
+        height: 7rem;
+    }
+    .courses {
+        right: 5%;
+    }
+    .tag-box {
+        right: 15%;
+    }
+    .circle {
+        left: 15%
+    }
+    .crown-icon {
+        left: 27%;
+    }
+    .sec-rdy-l-box-info {
+        padding-left: 5.2rem;
+    }
+    .sec-rdy-r-box {
+        padding-right: 5.2rem;
+    }
+
+}
+
+/**********************************************/
+/* ABOVE 1000px*/
+/**********************************************/
+@media (min-width: 63em) {
+    .nav-menu {
+        display: block;
+    }
+    
+    .btn-nav {
+        display: inline-block;
+    }
+    .toggle-container {
+        display: none;
+    }
+    .grid-2-cols {
+        grid-template-columns: 1fr 1fr;
+    }
+    .hero-sec-1 {
+        grid-column: 2;
+    }
+    .hero-sec-2 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .btn-enroll-box {
+        text-align: start;
+    }
+    .section-why-grid {
+        grid-template-columns: 1fr 2fr;
+    }
+    .sec-why-l-box {
+        width: 65%;
+    }
+    .sec-dvry-grid-box {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .sec-dvry-hdg-box {
+        width: 40%;
+    }
+    .sec-rdy-l-box-info {
+        padding-bottom: 9.6rem;
+    }
+    .sec-rdy-r-box {
+    padding-top: 9.6rem;
+    }
+    .grid-footer {
+        grid-template-columns: 1.5fr 1fr 1fr 1.5fr;
+    }
+    .footer-box4 {
+        grid-column: 4;
+        grid-row: 1;
+    }
+    .footer-box3 {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    
+}
+
+/**********************************************/
+/* ABOVE 1240px*/
+/**********************************************/
+@media (min-width: 78em) {
+    .section-why-r {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 4.2rem;
+    }
+    .section-why-r-heading {
+        font-size: 2rem;
+    }
+}
+
